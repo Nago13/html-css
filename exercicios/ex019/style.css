@@ -1,0 +1,36 @@
+@charset "UTF=8"
+
+    /*o que é id em HTML vira # em CSS(so pode 1 elemento com o msm id)
+
+    o que é class em HTML vira . em CSS(pode varios elementos com o msm class)*/
+
+body{
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    color: blueviolet;
+}
+h1#principal{
+    text-align: center;
+    background-color: bisque;
+
+}
+h2{
+    color: brown;
+}
+.basico{
+    color: rgb(6, 58, 6);
+    text-align: center;
+    font-weight: bold;
+}
+.intermediario{
+    color: rgb(205, 205, 48);
+}
+.avancado{
+    color: red;
+}
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        a{
+            color: red;
+            text-decoration: none;
+            width: 300px;
+        }
+        a:visited{
+            color: aquamarine;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: "[antes]";
+            color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+            <li><a href="https://github.com/"target="_blank">Repositorio github</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Ydi0M3Xd_vs" target="_blank">canal do youtube</a></li>
+        <li><a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_now.html" target="_blank">site do curso em video</a></li>
+    </ul>
+</body>
+</html>
